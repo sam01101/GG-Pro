@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+# GG Pro
+> 这是非常强大的内存修改器，在原版GG的基础上二次开发
+> 拥有原版GG修改器的所有功能，并且加入了很多新东西。
 
-You can use the [editor on GitHub](https://github.com/sam01101/GG-Pro/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+原作者 | 二次开发作者 | 项目开工日期 |
+-------| ---------- | ----------- |
+ Enyby | 小五，执念 | 2020/10/6
 
-### Markdown
+_当前正在开发中，有任何需求可私信作者或评论区留言！_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---------------------------------------------
 
-```markdown
-Syntax highlighted code block
+## 索引
+- [特色](#特色)
+- [范例](#范例)
+- [API文档](#文档)
 
-# Header 1
-## Header 2
-### Header 3
+---------------------------------------------
 
-- Bulleted
-- List
+### 特色
 
-1. Numbered
-2. List
++ 脚本加密 :wink:
++ XML和代码自定义脚本布局
++ XPosed模块
++ 悬浮窗支持 
++ 支持以下模块:
+  - socket
+  - luajava
+  - coroutines
+  - threads
++ Java反射
++ 脚本动态注入游戏
+  + 针对~~某TX~~MTP的措施
++ 执行系统命令支持 (cmd/sh/bash)
+  * _由于系统级命令的特殊性，操作不当可能会造成无法挽回的损失，因此我们为函数添加了警告，限制部分命令的直接调用 (rm, wget ...)_
+- [ ] 云端脚本库
 
-**Bold** and _Italic_ and `Code` text
+__所有的功能，函数都根据你们的需求来开发的__
 
-[Link](url) and ![Image](src)
+---------------------------------------------
+
+### 范例
+
+```lua
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```lua
+```
 
-### Jekyll Themes
+```lua
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sam01101/GG-Pro/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+如需更多范例请到[这里]()
 
-### Support or Contact
+---------------------------------------------
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 文档
+
+如需API文档请看[这里]()
